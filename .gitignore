@@ -6,6 +6,16 @@ __pycache__/
 *.pyo
 .env
 
+# Jupyter checkpoints and scratch notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/Untitled*.ipynb
+
+# SQLite runtime databases
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
 # Node.js dependencies and build output
 node_modules/
 **/node_modules/
